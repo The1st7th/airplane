@@ -1,0 +1,11 @@
+<form action="/departures/search" method="post">
+  <select name="departure">
+    @if(Model != null){
+      @foreach (var departure in Model)
+      {
+        <option value = "@departure.GetId()">@departure.GetDeparture()</option>
+      }
+      }
+    </select>
+  <button type="submit">Submit</button>
+</form>

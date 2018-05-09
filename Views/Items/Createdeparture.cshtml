@@ -1,0 +1,16 @@
+
+<h1>Departure</h1>
+<h3>Add a new item:</h3>
+<form action="/departures" method="post">
+  <label for="new-departure">Departure:</label>
+  <input id="new-departure" name="new-departure" type="text">
+  <select name="arrival">
+    @if(Model != null){
+      @foreach (var arrival in Model)
+      {
+        <option value = "@arrival.GetId()">@arrival.GetArrival()</option>
+      }
+      }
+    </select>
+  <button type="submit">Submit</button>
+</form>

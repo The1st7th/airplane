@@ -1,0 +1,13 @@
+<h1>To Do List</h1>
+<ul>
+  @foreach(var departure in Model)
+  {
+
+  <li>@departure.GetId() @departure.GetDeparture()<a href="/departures/delete/@departure.GetId()">delete item</a></li>
+  }
+</ul>
+<p><a href="/departures/new">Add a new item.</a></p>
+
+<form action="/departures/delete" method="post">
+  <button type="submit" name="button">Clear All Items</button>
+</form>

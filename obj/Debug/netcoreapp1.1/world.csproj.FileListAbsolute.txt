@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/to-do-list/bin/Debug/netcoreapp1.1/world.deps.json
+/Users/Guest/Desktop/to-do-list/bin/Debug/netcoreapp1.1/world.runtimeconfig.json
+/Users/Guest/Desktop/to-do-list/bin/Debug/netcoreapp1.1/world.runtimeconfig.dev.json
+/Users/Guest/Desktop/to-do-list/obj/Debug/netcoreapp1.1/world.AssemblyInfo.cs

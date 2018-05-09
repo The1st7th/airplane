@@ -1,0 +1,9 @@
+<h1>Category</h1>
+<ul>
+@if(Model != null){
+  @foreach(var arrival in Model)
+  {
+  <li>@arrival.GetId() @arrival.GetArrival() </li>
+  }
+  }
+</ul>

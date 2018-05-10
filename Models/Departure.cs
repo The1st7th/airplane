@@ -248,7 +248,7 @@ namespace Flights.Models
                categoryQuery.CommandText = @"SELECT * FROM arrival WHERE id = @arrivalId;";
 
                MySqlParameter arrivalIdParameter = new MySqlParameter();
-               arrivalIdParameter.ParameterName = "@CategoryId";
+               arrivalIdParameter.ParameterName = "@arrivalId";
                arrivalIdParameter.Value = arrivalId;
                categoryQuery.Parameters.Add(arrivalIdParameter);
 

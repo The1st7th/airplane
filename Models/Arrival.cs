@@ -160,9 +160,9 @@ namespace Flights.Models
             MySqlConnection conn = DB.Connection();
             conn.Open();
             MySqlCommand cmd = conn.CreateCommand() as MySqlCommand;
-            cmd.CommandText = @"SELECT departure.* FROM arrivals
+            cmd.CommandText = @"SELECT departure.* FROM arrival
                 JOIN departure_arrival ON (arrival.id = departure_arrival.arrival_id)
-                JOIN items ON (departure_arrival.departure_id = departure.id)
+                JOIN departure ON (departure_arrival.departure_id = departure.id)
                 WHERE arrival.id = @arrivalId;";
 
             MySqlParameter arrivalIdParameter = new MySqlParameter();

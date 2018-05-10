@@ -6,3 +6,11 @@
 /Users/Guest/Desktop/airplane/airplane/bin/Debug/netcoreapp1.1/airplane.pdb
 /Users/Guest/Desktop/airplane/airplane/obj/Debug/netcoreapp1.1/airplane.dll
 /Users/Guest/Desktop/airplane/airplane/obj/Debug/netcoreapp1.1/airplane.pdb
+/Users/Guest/Desktop/airplane/bin/Debug/netcoreapp1.1/airplane.deps.json
+/Users/Guest/Desktop/airplane/bin/Debug/netcoreapp1.1/airplane.runtimeconfig.json
+/Users/Guest/Desktop/airplane/bin/Debug/netcoreapp1.1/airplane.runtimeconfig.dev.json
+/Users/Guest/Desktop/airplane/bin/Debug/netcoreapp1.1/airplane.dll
+/Users/Guest/Desktop/airplane/bin/Debug/netcoreapp1.1/airplane.pdb
+/Users/Guest/Desktop/airplane/obj/Debug/netcoreapp1.1/airplane.AssemblyInfo.cs
+/Users/Guest/Desktop/airplane/obj/Debug/netcoreapp1.1/airplane.dll
+/Users/Guest/Desktop/airplane/obj/Debug/netcoreapp1.1/airplane.pdb

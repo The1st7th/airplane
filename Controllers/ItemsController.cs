@@ -66,11 +66,11 @@ namespace Flights.Controllers
         [HttpPost("/arrival/search")]
         public ActionResult Resultcategory()
         {
-          Arrival selectedCategory = Arrival.Find(int.Parse(Request.Form["category"]));
-          return View("departures", selectedCategory.GetArrival());
+          Arrival selectedCategory = Arrival.Find(int.Parse(Request.Form["arrival"]));
+          return View("departures", selectedCategory.GetDeparture());
         }
         [HttpGet("/arrival/search")]
-        public ActionResult Searcharrival()
+        public ActionResult Searcharrivals()
         {
           List<Arrival> allItems = Arrival.GetAll();
           return View(allItems);
@@ -85,9 +85,9 @@ namespace Flights.Controllers
         public ActionResult Resultitems()
         {
           Departure selecteditems = Departure.Find(int.Parse(Request.Form["departure"]));
-          return View("Arrivalc", selecteditems.GetDeparture());
+          return View("Arrivalc", selecteditems.GetArrivals());
         }
-        [HttpGet("/items/search")]
+        [HttpGet("/departure/search")]
         public ActionResult Searchcatfromitems()
         {
           List<Departure> allItems = Departure.GetAll();
